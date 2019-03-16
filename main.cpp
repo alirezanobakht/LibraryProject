@@ -34,7 +34,7 @@ int main() {
             cout<<"Enter library Address (ten character at most)"<<endl;
             string address;
             cin>>address;
-            lib.addLibrary(address,ame);
+            lib.addLibrary(address,me);
         }
         else if(x==2){
             cout<<"Enter library address"<<endl;
