@@ -154,7 +154,7 @@ int main() {
                 else if(b->bookSubject==SciFi){
                     cout<<"SciFi";
                 }
-                else if(b->bookSubject==Horror){
+                else if(b>bookSubject==Horror){
                     cout<<"Horror";
                 }
                 else if(b->bookSubject==Poetry){
