@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Projects/AP Workshop/nlibrary/library/Classes/books.h
+iostream
+-
+
+E:/Projects/AP Workshop/nlibrary/library/Classes/libraries.cpp
+libraries.h
+E:/Projects/AP Workshop/nlibrary/library/Classes/libraries.h
+iostream
+-
+fstream
+-
+vector
+-
+conio.h
+-
+
+E:/Projects/AP Workshop/nlibrary/library/Classes/libraries.h
+iostream
+-
+books.h
+E:/Projects/AP Workshop/nlibrary/library/Classes/books.h
+
+E:/Projects/AP Workshop/nlibrary/library/main.cpp
+iostream
+-
+Classes/books.h
+E:/Projects/AP Workshop/nlibrary/library/Classes/books.h
+Classes/libraries.h
+E:/Projects/AP Workshop/nlibrary/library/Classes/libraries.h
+windows.h
+-
+conio.h
+-
+
